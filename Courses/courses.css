@@ -1,0 +1,83 @@
+.courses {
+  padding: 60px 40px;
+  background-color: #fff;
+}
+
+.courses h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  color: #1f2937;
+}
+
+.course-category {
+  margin-bottom: 60px;
+}
+
+.course-category h3 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #0077b6;
+}
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  width: 50%;
+  height: auto;
+}
+
+.card h4 {
+  font-size: 1.3rem;
+  margin: 15px 0 10px;
+  color: #1f2937;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0 20px 15px;
+  min-height: 60px;
+}
+
+.course-info {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  font-size: 0.9rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card button {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s;
+}
+
+.card button:hover {
+  background-color: #005f91;
+}
